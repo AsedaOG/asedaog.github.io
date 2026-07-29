@@ -1,391 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kwame Boohene : Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kwame Boohene — Data Analyst & BI Developer</title>
+  <meta name="description" content="Kwame Boohene is a data analyst who turns raw data into decisions — analytics, dashboards and predictive models built with Python, SQL, R, Tableau and Power BI.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2335e0c9'/%3E%3Cstop offset='1' stop-color='%237c8cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='%2304140f'%3EKB%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<!-- ////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 1 - THE NAVBAR SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////-->
-<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================== HEADER / NAV ============================== -->
+  <header class="site-header" id="siteHeader">
     <div class="container">
-      <a class="navbar-brand" href="">
-       
+      <a class="brand" href="#home">
+        <span class="brand-mark">KB</span>
+        <span>Kwame Boohene</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
-          </li>
-        </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          +233 267608944
-          <span>
-            <i class="fas fa-phone-alt"></i>
-          </span>
-        </button>
-      </div>
-    </div>
-  </nav>
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                            START SECTION 2 - THE INTRO SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+      <ul class="nav-list" id="navList">
+        <li><a href="#home" class="nav-link is-active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
 
-<section id="home" class="intro-section">
-  <div class="container">
-    <div class="row align-items-center text-white">
-      <!-- START THE CONTENT FOR THE INTRO  -->
-      <div class="col-md-6 intros text-start">
-        <h1 class="display-2">
-          <span class="display-2--intro">Kwame Boohene</span>
-          <span class="display-2--description lh-base">
-            I collect, analyse and process data to help drive daily decisions 
-          </span>
-        </h1>
-        <button type="button"  class="rounded-pill btn-rounded"> <a href = "mailto:kaboohene@gmail.com">Get in Touch</a>
-          <span><i class="fas fa-arrow-right"></i></span>
-         
-        </button>
-      </div>
-      <!-- START THE CONTENT FOR THE VIDEO -->
-      <div class="col-md-6 intros text-end">
-        <div class="video-box">
-          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-</section>
-
-
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                         START SECTION 4 - THE SERVICES  
-///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="services" class="services">
-  <div class="container">
-    <div class="row text-center">
-      <h1 class="display-3 fw-bold"> Services</h1>
-      <div class="heading-line mb-1"></div>
-    </div>
-  <!-- START THE DESCRIPTION CONTENT  -->
-    <div class="row pt-2 pb-2 mt-0 mb-3">
-      <div class="col-md-6 border-right">
-        <div class="bg-white p-3">
-          <h2 class="fw-bold text-capitalize text-center">
-            Translating data into valuable comprehensible insights. My goal is to improve results, make right decisions,and save costs.
-          </h2>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="bg-white p-4 text-start">
-          <p class="fw-light">
-            I am experienced in Microsoft Excel,SQL, Python and R . For data visualization methods I am adept at using Tableau and Power Bi for my data projects
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- START THE CONTENT FOR THE SERVICES  -->
-  <div class="container">
-    <!-- START THE MARKETING CONTENT  -->
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="services__content">
-          <div class="icon d-block fas fa-paper-plane"></div>
-          <h3 class="display-3--title mt-1">Data Analysis</h3>
-          <p class="lh-lg">
-            I  specialize in analyzing data. Results, trends and recommendations are clearly presented in reports or tools
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
-        <div class="services__pic">
-          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
-        </div>
-      </div>
-    </div>
-    <!-- START THE WEB DEVELOPMENT CONTENT  -->
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
-        <div class="services__pic">
-          <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="services__content">
-          <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">Dashboards</h3>
-          <p class="lh-lg">
-           
-Dashboards show results in an interactive way. You can examine trends and patterns with a single click and get up to date and interactive information.
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- START THE CLOUD HOSTING CONTENT  -->
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-        <div class="services__content">
-          <div class="icon d-block fas fa-cloud-upload-alt"></div>
-          <h3 class="display-3--title mt-1">Interactive Infographics</h3>
-          <p class="lh-lg">
-            Present your data in an inspiring way with an infographic rather than a piece of text. I create infographics that can be used internally or publicly
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
-        <div class="services__pic">
-          <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
-                              START SECTION 7 - THE PORTFOLIO  
-//////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-<section id="portfolio" class="portfolio">
-  <div class="container">
-    <div class="row text-center mt-5">
-      <h1 class="display-3 fw-bold text-capitalize">Portfolio</h1>
-      <div class="heading-line"></div>
-    </div>
-    
-
-    <!-- START THE PORTFOLIO ITEMS  -->
-    <div class="row">
-      <a href = "https://github.com/AsedaOG/bellabeatcasestudy" target="_blank">
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>Bellabeat Case Study</h4>
-              <p>Analysis</p>
-            </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-md-6">
-       <a href = "https://github.com/AsedaOG/English-Premier-League-2021-2022-analysis-" target="_blank">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-2.jpg" alt="Epl Analysis" title="Epl Analysis" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>English Premier League Analysis</h4>
-              <p>Analysis</p>
-            </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <a href = "https://github.com/AsedaOG/adventureworks-report" target="_blank">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-3.jpg" alt="Adventureworks Report" title="Adventureworks Report" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>Adventure Works Report</h4>
-              <p>Power Bi</p>
-         </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <a href = "https://github.com/AsedaOG/world-university-rankings" target="_blank">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>World University Rankings</h4>
-              <p>Tableau</p>
+      <div class="nav-right">
+        <a href="mailto:kaboohene@gmail.com" class="btn btn-primary btn-sm nav-cta">
+          Let's talk <i class="fas fa-arrow-right"></i>
         </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 5</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 6</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 7</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 8</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>project name goes here 9</h4>
-              <p>category project</p>
-            </div>
-          </div>
-        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navList">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
+  <main id="main">
+    <!-- ============================== HERO ============================== -->
+    <section id="home" class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Data Analyst · BI Developer</p>
+          <h1>
+            Turning raw data into <span class="grad">decisions that matter.</span>
+          </h1>
+          <p class="lead">
+            I'm Kwame Boohene. I collect, clean and analyse data, then turn it into dashboards, models
+            and stories that help teams act with confidence — built with Python, SQL, R, Tableau and Power BI.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work <i class="fas fa-arrow-right"></i></a>
+            <a href="mailto:kaboohene@gmail.com" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><b>5+</b><span>Analytics projects</span></div>
+            <div class="stat"><b>0.99</b><span>ROC-AUC, churn model</span></div>
+            <div class="stat"><b>6</b><span>Tools mastered</span></div>
+          </div>
+        </div>
 
-   
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////
-                           START SECTION 9 - THE FOOTER  
-///////////////////////////////////////////////////////////////////////////////////////////////-->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <!-- CONTENT FOR THE MOBILE NUMBER  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-            <path d="M15 7a2 2 0 0 1 2 2" />
-            <path d="M15 3a6 6 0 0 1 6 6" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title"></a>
-          <p class="contact-box__info--subtitle">  </p>
-        </div>
-      </div>  
-      <!-- CONTENT FOR EMAIL  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <polyline points="3 9 12 15 21 9 12 3 3 9" />
-            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-            <line x1="3" y1="19" x2="9" y2="13" />
-            <line x1="15" y1="13" x2="21" y2="19" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">kaboohene@gmail.com</a>
-          <p class="contact-box__info--subtitle"></p>
+        <div class="hero-visual reveal" style="--i:1">
+          <div class="dash-card">
+            <div class="dash-card__head">
+              <div class="dash-dots"><span></span><span></span><span></span></div>
+              <span class="dash-tag">Live model</span>
+            </div>
+            <div class="dash-kpis">
+              <div class="dash-kpi"><b>16.1%</b><span>Churn rate</span></div>
+              <div class="dash-kpi"><b>93.9%</b><span>Recall</span></div>
+              <div class="dash-kpi"><b>292</b><span>High risk</span></div>
+            </div>
+            <div class="dash-chart" aria-hidden="true">
+              <i style="height:40%"></i><i style="height:65%"></i><i style="height:35%"></i>
+              <i style="height:80%"></i><i style="height:55%"></i><i style="height:95%"></i>
+              <i style="height:50%"></i>
+            </div>
+            <div class="dash-float dash-float--1">
+              <span class="ico"><i class="fas fa-chart-line"></i></span>
+              <div><b>+0.99</b><span>ROC-AUC</span></div>
+            </div>
+            <div class="dash-float dash-float--2">
+              <span class="ico"><i class="fas fa-database"></i></span>
+              <div><b>10,127</b><span>records scored</span></div>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- CONTENT FOR LOCATION  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="18" y1="6" x2="18" y2="6.01" />
-            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-            <line x1="9" y1="4" x2="9" y2="17" />
-            <line x1="15" y1="15" x2="15" y2="20" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">Burnaby, Canada</a>
-          <p class="contact-box__info--subtitle"></p>
+
+      <div class="hero-social">
+        <a href="https://github.com/AsedaOG" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kwame-boohene-5486a3149/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:kaboohene@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section id="about" class="section-alt">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="eyebrow">About me</p>
+            <h2 style="font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:1rem;">Data-driven, detail-obsessed, business-focused.</h2>
+            <p>
+              I'm a data analyst based in Burnaby, Canada, focused on translating messy, real-world data into
+              insights that improve results, guide decisions and save costs. My work spans the full lifecycle —
+              from cleaning and exploring raw datasets to building predictive models and shipping the dashboards
+              that stakeholders actually use.
+            </p>
+            <p>
+              I'm comfortable moving between spreadsheets and statistical models: Excel and SQL for the data
+              foundations, Python and R for analysis and machine learning, and Tableau or Power BI to make the
+              findings land with a non-technical audience.
+            </p>
+          </div>
+
+          <div class="about-highlights reveal">
+            <div class="highlight-card">
+              <span class="highlight-icon"><i class="fas fa-chart-line"></i></span>
+              <div>
+                <h3>Data Analysis</h3>
+                <p>Cleaning, exploring and modelling data to surface trends, drivers and clear recommendations.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon"><i class="fas fa-chart-bar"></i></span>
+              <div>
+                <h3>Dashboards & Reporting</h3>
+                <p>Interactive Tableau and Power BI dashboards that make trends explorable in a single click.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon"><i class="fas fa-brain"></i></span>
+              <div>
+                <h3>Predictive Modelling</h3>
+                <p>Classification and regression models — from feature engineering to evaluation and scoring.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-icon"><i class="fas fa-project-diagram"></i></span>
+              <div>
+                <h3>Storytelling with Data</h3>
+                <p>Presenting findings as infographics and reports that are clear to a non-technical audience.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- START THE SOCIAL MEDIA CONTENT  -->
-  <div class="footer-sm" style="background-color: #212121;">
+    <!-- ============================== SKILLS ============================== -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" style="justify-content:center;">Skills</p>
+          <h2>The toolkit behind the analysis</h2>
+          <p>A blend of querying, statistical modelling and visualization tools, chosen to fit the problem — not the other way around.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal" style="--i:0">
+            <span class="cat-icon"><i class="fas fa-code"></i></span>
+            <h3>Languages & Querying</h3>
+            <div class="skill-tags">
+              <span><i class="fab fa-python"></i> Python</span>
+              <span><i class="fab fa-r-project"></i> R</span>
+              <span><i class="fas fa-database"></i> SQL</span>
+            </div>
+          </div>
+          <div class="skill-card reveal" style="--i:1">
+            <span class="cat-icon"><i class="fas fa-chart-pie"></i></span>
+            <h3>BI & Visualization</h3>
+            <div class="skill-tags">
+              <span>Tableau</span>
+              <span>Power BI</span>
+              <span><i class="fas fa-file-excel"></i> Excel</span>
+            </div>
+          </div>
+          <div class="skill-card reveal" style="--i:2">
+            <span class="cat-icon"><i class="fas fa-brain"></i></span>
+            <h3>Statistics & ML</h3>
+            <div class="skill-tags">
+              <span>Regression</span>
+              <span>Classification</span>
+              <span>EDA</span>
+              <span>Feature engineering</span>
+            </div>
+          </div>
+          <div class="skill-card reveal" style="--i:3">
+            <span class="cat-icon"><i class="fas fa-table"></i></span>
+            <h3>Tools & Workflow</h3>
+            <div class="skill-tags">
+              <span>Jupyter</span>
+              <span><i class="fas fa-code-branch"></i> Git</span>
+              <span>Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== FEATURED PROJECT ============================== -->
+    <section id="projects" class="section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" style="justify-content:center;">Projects</p>
+          <h2>Selected work</h2>
+          <p>Case studies covering behavioural analysis, predictive modelling and interactive reporting.</p>
+        </div>
+
+        <div class="featured reveal">
+          <div class="featured-grid">
+            <div>
+              <span class="featured-tag"><i class="fas fa-star"></i> Featured case study</span>
+              <h3>Credit Card Customer Churn: Prediction &amp; Analysis</h3>
+              <p class="desc">
+                Analysed ~10,127 credit card customers to uncover why 16.1% had already churned, then trained a
+                Gradient Boosting model that catches 93.9% of customers who actually leave (ROC-AUC 0.99). The
+                strongest churn signals were falling transaction activity and revolving balance, followed by a
+                spike in service contacts before exit. The model flags 292 currently active customers as
+                High Risk today — worth roughly $715K in combined annual transaction volume — with a ranked
+                list ready for retention outreach.
+              </p>
+              <div class="featured-tags">
+                <span>Python</span>
+                <span>scikit-learn</span>
+                <span>EDA</span>
+                <span>Gradient Boosting</span>
+                <span>Churn Modelling</span>
+              </div>
+              <div class="featured-actions">
+                <a href="https://github.com/AsedaOG/Credit-Card-Churners-Prediction-and-Analysis" target="_blank" rel="noopener" class="btn btn-primary">
+                  <i class="fab fa-github"></i> View repository
+                </a>
+                <a href="https://github.com/AsedaOG/Credit-Card-Churners-Prediction-and-Analysis/blob/main/Churn_Analysis_Notebook.ipynb" target="_blank" rel="noopener" class="btn btn-ghost">
+                  View notebook <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="featured-metrics">
+              <div class="metric-card"><b>16.1%</b><span>Customers already churned</span></div>
+              <div class="metric-card"><b>0.99</b><span>ROC-AUC</span></div>
+              <div class="metric-card"><b>93.9%</b><span>Churn recall</span></div>
+              <div class="metric-card"><b>292</b><span>High-risk accounts flagged</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PROJECTS GRID ============================== -->
+    <section class="section-alt" style="padding-top:0;">
+      <div class="container">
+        <div class="projects-grid">
+          <a class="project-card reveal" href="https://github.com/AsedaOG/bellabeatcasestudy" target="_blank" rel="noopener">
+            <div class="project-media"><i class="fas fa-heartbeat"></i></div>
+            <div class="project-body">
+              <h3>Bellabeat Case Study</h3>
+              <p>Analysing smart-device usage data to identify trends that can shape Bellabeat's marketing strategy.</p>
+              <div class="project-tags"><span>Analysis</span><span>R</span><span>EDA</span></div>
+              <span class="project-link">View case study <i class="fas fa-external-link-alt"></i></span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/AsedaOG/English-Premier-League-2021-2022-analysis-" target="_blank" rel="noopener">
+            <div class="project-media"><i class="fas fa-futbol"></i></div>
+            <div class="project-body">
+              <h3>English Premier League Analysis</h3>
+              <p>Statistical breakdown of the 2021/22 Premier League season — team and player performance trends.</p>
+              <div class="project-tags"><span>Analysis</span><span>Python</span><span>Sports</span></div>
+              <span class="project-link">View case study <i class="fas fa-external-link-alt"></i></span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/AsedaOG/adventureworks-report" target="_blank" rel="noopener">
+            <div class="project-media"><i class="fas fa-chart-bar"></i></div>
+            <div class="project-body">
+              <h3>Adventure Works Report</h3>
+              <p>An interactive Power BI report covering sales performance across Adventure Works' product lines.</p>
+              <div class="project-tags"><span>Power BI</span><span>DAX</span></div>
+              <span class="project-link">View case study <i class="fas fa-external-link-alt"></i></span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="https://github.com/AsedaOG/world-university-rankings" target="_blank" rel="noopener">
+            <div class="project-media"><i class="fas fa-graduation-cap"></i></div>
+            <div class="project-body">
+              <h3>World University Rankings</h3>
+              <p>A Tableau dashboard exploring global university rankings across regions and scoring criteria.</p>
+              <div class="project-tags"><span>Tableau</span><span>Dashboard</span></div>
+              <span class="project-link">View case study <i class="fas fa-external-link-alt"></i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <h2>Let's turn your data into your next decision.</h2>
+          <p>Have a dataset that needs answers, or a dashboard that needs building? I'd love to hear about it.</p>
+          <div class="contact-actions">
+            <a href="mailto:kaboohene@gmail.com" class="btn btn-primary">
+              <i class="fas fa-envelope"></i> kaboohene@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/kwame-boohene-5486a3149/" target="_blank" rel="noopener" class="btn btn-ghost">
+              <i class="fab fa-linkedin"></i> Connect on LinkedIn
+            </a>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="ico"><i class="fas fa-phone-alt"></i></span>
+              <div><b>Phone</b><span>+233 26 760 8944</span></div>
+            </div>
+            <div class="contact-item">
+              <span class="ico"><i class="fas fa-envelope"></i></span>
+              <div><b>Email</b><span>kaboohene@gmail.com</span></div>
+            </div>
+            <div class="contact-item">
+              <span class="ico"><i class="fas fa-map-marker-alt"></i></span>
+              <div><b>Location</b><span>Burnaby, Canada</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="site-footer">
     <div class="container">
-      <div class="row py-4 text-center text-white">
-        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-          connect with us on social media
-        </div>
-        <div class="col-lg-7 col-md-6">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="https://github.com/AsedaOG" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/kwame-boohene-5486a3149/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+      <div class="footer-row">
+        <p class="footer-copy">&copy; <span id="year"></span> Kwame Boohene. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://github.com/AsedaOG" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kwame-boohene-5486a3149/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:kaboohene@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
     </div>
-  </div>
- 
-<!-- BACK TO TOP BUTTON  -->
-<a href="#" class="shadow btn-primary rounded-circle back-to-top">
-  <i class="fas fa-chevron-up"></i>
-</a>
+  </footer>
 
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
 
-
-   
-    <script src="assets/vendors/js/glightbox.min.js"></script>
-
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-        'touchNavigation': true,
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoPlayVideos': 'true',
-});
-    
-    </script>
-     <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
